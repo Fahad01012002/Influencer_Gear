@@ -20,8 +20,14 @@
 }
 
 .max-width {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 50px auto;
+}
+
+main{
+    max-width: 1047px;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .display-flex {
@@ -89,7 +95,7 @@
 }
 
 .banner-image{
-    background-image: url(images/Circle\ design.svg);
+    background-image: url(/images/Circle\ design.svg);
 }
 
 /* sponsor style */
@@ -97,5 +103,135 @@
 .sponsor{
     margin-top: 100px;
     justify-content: space-between;
+}
+
+/* Collection style */
+
+.collection-heading{
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+}
+
+.collection{
+    max-width: 1047px;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3);
+    gap: 30px;
+}
+
+.collection-card{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px 14px;
+}
+
+.collection-card img{
+    text-align: center;
+}
+
+.card-heading{
+    color: rgba(24, 25, 31, 1);
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 6px;
+}
+
+.collection-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.star {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.star.active {
+  color: #f1c40f;
+}
+
+.collection-description{
+    max-width: 196px;
+    color: rgba(120, 120, 133, 1);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 145%;
+}
+
+.btn{
+    margin-left: 902px;
+    background-color: white;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/* feature style */
+
+.feature{
+    max-width: 1110px;
+    margin: 0 auto 100px;
+    gap: 96px;
+}
+
+.feature-heading{
+    color: rgba(10, 8, 38, 1);
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+
+.feature-description{
+    color: rgba(108, 108, 108, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.button{
+    border-radius: 0;
+}
+
+/* footer style*/
+
+.foot{
+    max-width: 100%;
+    background-color: rgba(10, 8, 38, 1);
+}
+
+.footer{
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    color: white;
+}
+
+.footer-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.footer-description{
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon i{
+    font-size: 1.2rem;
+    margin-right: 16px;
 }
 
