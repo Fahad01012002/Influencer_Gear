@@ -303,6 +303,11 @@ main{
         margin-bottom: 20px;
     }
 
+    .collection-description{
+        max-width: 300px;
+        margin-left: 60px;
+    }
+
     .collection-card{
         text-align: center;
     }
