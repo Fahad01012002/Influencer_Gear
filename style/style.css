@@ -303,6 +303,10 @@ main{
         margin-bottom: 20px;
     }
 
+    .collection-card{
+        text-align: center;
+    }
+
     .feature{
         margin-bottom: 50px;
     }
